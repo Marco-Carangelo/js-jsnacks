@@ -1,3 +1,5 @@
-Snack 1
+SNACK 3
 
-L'utente inserisce due numeri in successione, con due prompt. Il software stampa quello maggiore.
+Il software deve chiedere per 10 volte all’utente di inserire un numero.
+
+Il programma stampa la somma di tutti i numeri inseriti.
