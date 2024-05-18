@@ -13,7 +13,10 @@ let invited = false; // Variabile booleana per verificare se l'utente è nella l
 
 for (let i = 0; i < guests.length; i++) {
 
-    if (guests[i] === userName) {
+    const checkGuest = guests[i].toLowerCase();
+    const checkValue = userName.toLowerCase();
+
+    if (checkGuest === checkValue) {
 
         invited = true;
     }
